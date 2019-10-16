@@ -1,0 +1,29 @@
+{
+  "name": "@concept/core",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist --watch",
+    "clean": "rm -rf ./dist ./node_modules",
+    "flush": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.2",
+    "@babel/runtime-corejs2": "^7.6.2",
+    "babel-plugin-import": "^1.12.2",
+    "next": "^9.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-plugin-module-resolver": "^3.2.0"
+  },
+  "workspaces": {
+    "nohoist": [
+      "@babel/runtime-corejs2"
+    ]
+  }
+}
