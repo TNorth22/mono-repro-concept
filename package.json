@@ -6,7 +6,6 @@
     "packages/*"
   ],
   "scripts": {
-    "clean": "rm -rf node_modules && rm -rf packages/*/node_modules",
-    "link-mobile": "/packages/core/build"
+    "clean": "rm -rf node_modules && rm -rf packages/*/node_modules"
   }
 }

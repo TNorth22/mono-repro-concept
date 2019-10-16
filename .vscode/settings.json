@@ -1,3 +1,7 @@
 {
-    "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "react-native-tools": {
+    "projectRoot": "./packages/mobile",
+    "logLevel": "Trace"
+  }
 }
