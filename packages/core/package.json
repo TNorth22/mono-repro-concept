@@ -14,7 +14,7 @@
     "react-native": "0.61.2",
     "@babel/runtime-corejs2": "^7.6.2",
     "babel-plugin-import": "^1.12.2",
-    "next": "^9.0.7"
+    "next": "^11.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
